@@ -18,4 +18,4 @@
 * Adithya Raj Melayikandy
 
 ## Application video:
-* https://drive.google.com/file/d/11SUc5HLHiW2a2C1NcK_l5f_JqlYxEiXa/view
+* 
