@@ -1,19 +1,21 @@
 # 2022_IBM_Code_Challenge_Digitization_Project
-
-# Professional README Generator
     
 #### Table of Contents
 1. [Project Description](#project-description)
 4. [Contributor Guidelines](#contributor-guidelines)
 
-## Application video:
-* https://drive.google.com/file/d/11SUc5HLHiW2a2C1NcK_l5f_JqlYxEiXa/view
+## Project Description
+* This project is a part of IBM's Good Tech Scholar Program. We chose the problem statement -"Digitization to ease access to social services". The idea is to make Indian governmental services accessible to common people via an interface like mobile app/ web application.
 
 ## Project Description
-* This is a 
+* Our team tried to create an all-in-one web application which gives users the ease of accessing all the governmental services like -"Land conversion", "Pension application" etc.. For storing the data, we have used sqlite database software. We have used JDBC driver inorder to make a connection between Java & the database software.  
 
-## Contributor Guidelines
-* Guidelines details are discussed under the Code of Conduct section
+## Contributor's
+* Kaushik Ramabhotla
+* A P Advaith
+* Modiyam Sandhya
+* Palla Narasimha
+* Adithya Raj Melayikandy
 
-
-* Follow me on Github at [canahuate16](http://github.com/canahuate16)
+## Application video:
+* https://drive.google.com/file/d/11SUc5HLHiW2a2C1NcK_l5f_JqlYxEiXa/view
