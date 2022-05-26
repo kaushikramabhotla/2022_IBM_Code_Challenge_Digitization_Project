@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) throws SQLException {
         insert("IBM", "IBM");
-        File file = new File("C:\\Users\\223053315\\Desktop\\img3.jpg");
+        File file = new File("img3.jpg");
         insertImage(file);
         login();
 
