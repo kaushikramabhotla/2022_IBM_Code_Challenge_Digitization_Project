@@ -1,15 +1,16 @@
 import java.sql.*;
 import java.io.*;
 import java.util.Scanner;
-
+    //=============================================================================================
 public class test {
     public static void main(String[] args) throws SQLException {
-        //insert("IBM", "IBM");
+        insert("IBM", "IBM");
         File file = new File("C:\\Users\\223053315\\Desktop\\img3.jpg");
         insertImage(file);
+        login();
 
     }
-
+    //=============================================================================================
     private static void insert(String username, String password) throws SQLException {
         Connection con = sqlConnection.connection();
         PreparedStatement ps = null;
@@ -98,7 +99,7 @@ public class test {
 
         }
     }
-
+    //=============================================================================================
     // overload
     private static void insertImage(File file) throws SQLException {
         Scanner sc = new Scanner(System.in);
@@ -119,7 +120,9 @@ public class test {
             while (resultSet.next()) {
                 id = Integer.parseInt(resultSet.getString("id"));
             }
+            System.out.println("Do you want to delete the added image ?");
             String response = sc.next();
+
             if(response.equals("yes") || response.equals("YES") || response.equals("Yes")){
                 deleteImage(id);
             }
@@ -140,6 +143,23 @@ public class test {
         }
 
     }
-
-
+    //=============================================================================================
+    private static void login() throws SQLException {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter username: ");
+        String username = s.next();
+        System.out.println("Enter Password");
+        String password = s.next();
+        //===============================================================================
+        Connection connection = sqlConnection.connection();
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery("SELECT username,password from login");
+        while (resultSet.next()) {
+            if (resultSet.getString("username").equals(username) && resultSet.getString("password").equals(password)) {
+                System.out.println("Logged In ! Successfully");
+                break;
+            }
+        }
+        connection.close();
+    }
 }
