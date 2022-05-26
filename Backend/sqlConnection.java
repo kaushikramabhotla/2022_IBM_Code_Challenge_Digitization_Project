@@ -9,7 +9,7 @@ public class sqlConnection {
             try {
                 Class.forName("org.sqlite.JDBC");
 
-                connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\223053315\\IdeaProjects\\IBM\\src\\usersDB.db");
+                connection = DriverManager.getConnection("jdbc:sqlite:usersDB.db");
 
                 System.out.println("connected to : " + connection.getMetaData());
 
