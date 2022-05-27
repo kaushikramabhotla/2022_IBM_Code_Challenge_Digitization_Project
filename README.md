@@ -29,6 +29,4 @@
 
 <img src="login.jpg" width="500">
 
-<img src="loin.jpg" width="500">
-
-<img src="loin.jpg" width="500">
+<img src="registration.jpg" width="500">
