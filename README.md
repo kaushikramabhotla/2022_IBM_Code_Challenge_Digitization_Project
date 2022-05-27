@@ -2,8 +2,8 @@
     
 #### Table of Contents
 1. [Project Description](#project-description)
-2. [SOlution Description](#solution-description)
-3. [Contributor's](#contributor's)
+2. [Solution Description](#solution-description)
+3. [Contributor's](#Contributor's)
 
 ## Project Description
 * This project is a part of IBM's Good Tech Scholar Program. We chose the problem statement -"Digitization to ease access to social services". The idea is to make Indian governmental services accessible to common people via an interface like mobile app/ web application.
