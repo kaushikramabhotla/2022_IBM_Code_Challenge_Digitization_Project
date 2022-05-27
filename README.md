@@ -27,6 +27,6 @@
 
 <img src="intellij.png" width="700">
 
-<img src="login.jpg" width="500">
+<img src="login.jpeg" width="700">
 
-<img src="registration.jpg" width="500">
+<img src="registration.jpg" width="700">
