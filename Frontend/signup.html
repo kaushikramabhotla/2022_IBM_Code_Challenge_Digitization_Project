@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charseta"UTF-8">
+    <meta http-equiva"X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>User</title>
+
+</head> 
+<body>
+<h3><center>User Registration</center></h3><br><br>
+<center><form name="custForm">
+ 
+       User Name  :     <input type="" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>  <!-- autocomplete provides auto fill feature when set to 'on' -->
+ 
+     Password     :  <input type="" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>  <!-- autocomplete provides auto fill feature when set to 'on' -->
+  
+       Email :    <input type="" size="30" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>  <!-- autocomplete provides auto fill feature when set to 'on' -->
+       Gender:
+       <form>
+          <input type="radio" id="male" name="Gender" value="Male">
+          <label for="html">Male</label>
+          <input type="radio" id="female" name="Gender" value="Female">
+          <label for="css">Female</label>
+          <input type="radio" id="male" name="Gender" value="Other">
+          <label for="javascript">Other</label>
+        </form> 
+        
+       Age (Yrs)  :     <input type="" size="1" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/> <br><br>  <!-- autocomplete provides auto fill feature when set to 'on' -->    <!-- required attribute : Age is necessary -->
+  
+       Address:  
+  <textarea rows="4" cols="50"> </textarea>
+ 
+      <br> <br>State website:<a href=https://www.keralaregistration.gov.in/pearlpublic/ target="_"> Click here </a>
+      <br><br>
+       Choose country:
+       <select id="State" name="State">
+        <option>State</option>
+        <option value="Assam">Assam</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="TamilNadu">TamilNadu</option>
+        <option value="Karnataka">Karnataka</option>
+       
+    </select>
+    
+       <br><br>
+       
+        <form action="/action_page.php">
+            <label for="journey">Date of Registration:</label>
+            <input type="date" id="journey" name="journey">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </form>
+          Already a member?<a href="http://127.0.0.1:5500/login.html">Go to Login page</a>
+     	 			    </td>
+       
+<br><br>
+</form>
+</center>
+</body>
+</html>
