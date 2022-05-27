@@ -19,10 +19,16 @@
 * Adithya Raj Melayikandy
 
 ## Application video:
-* https://youtu.be/8saa23kVc38
+* https://youtu.be/qLXZ11rm5w4
 
 ## Gallery:
 
 <img src="DB.png" width="700">
 
 <img src="intellij.png" width="700">
+
+<img src="login.jpg" width="500">
+
+<img src="loin.jpg" width="500">
+
+<img src="loin.jpg" width="500">
